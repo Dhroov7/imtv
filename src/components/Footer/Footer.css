@@ -1,0 +1,23 @@
+.footer-links {
+    display: flex;
+}
+
+.footer-links>p {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding: 1em;
+}
+
+.footer {
+    padding-left: 1em;
+    padding-top: 1.3em;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    width: 45em;
+    padding: 0.5em 0 2em 1em;
+}

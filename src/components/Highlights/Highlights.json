@@ -1,0 +1,14 @@
+{
+    "trending": {
+        "title": "Avatar: The Way of Water",
+        "description": "Summers span decades. Winters can last a lifetime. Whilst kingdoms fight each other for the control of Westeros, a sinister force lurks beyond the Wall.",
+        "duration": "English - 3Hrs - Sci-fi/ Adventure",
+        "type": "TRENDING"
+    },
+    "comingSoon": {
+        "title": "Thor: Love and Thunder",
+        "description": "Thor embarks on a journey unlike anything he's ever faced a quest for inner peace. However, his retirement gets interrupted by Gorr the God Butcher.",
+        "duration": "English - 2H 13M - Action/ Fantasy",
+        "type": "STREAMING FROM 27 JUNE"
+    }
+}

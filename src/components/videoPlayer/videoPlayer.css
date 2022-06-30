@@ -1,0 +1,11 @@
+.vjs-control-bar {
+    background-color: transparent !important;
+}
+
+.vjs-play-progress {
+    background-color: #4ECCA3 !important;
+}
+.video-js .vjs-play-progress:before {
+    width: 16px;
+    height: 16px;
+}

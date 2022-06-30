@@ -1,0 +1,36 @@
+.content-slider-heading {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+
+.content-slider {
+    padding-top: 1.1em;
+    padding-left: 2em;
+}
+
+/* .content-slider-image-container {
+    width: 15em !important;
+    border-radius: 5px !important;
+} */
+
+.content-slider .swiper-slide {
+    -webkit-transition: 250ms all;
+    transition: 250ms all;
+    width: 15em !important;
+    border-radius: 5px !important;
+}
+
+.content-slider .swiper-slide:hover {
+    -webkit-transform: scale(1.23);
+    transform: scale(1.23);
+    z-index: 1;
+}
+
+.content-slider .swiper-slide:first-child:hover {
+    margin: 0 40px;
+}
+
+.content-slider .swiper-slide:last-child:hover {
+    margin: 0 -40px;
+}

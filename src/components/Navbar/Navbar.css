@@ -1,0 +1,39 @@
+.menu li {
+    color: #E4E4E4;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 1rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 81px;
+    top: 0;
+    left: 0;
+}
+
+.navbar-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.action-buttons {
+    display: flex;
+}
+
+.action-buttons-svg {
+    padding: 1rem;
+    height: 28px;
+}
+
+.logo-container {
+    height: 100%;
+}
