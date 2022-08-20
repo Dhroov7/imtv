@@ -1,3 +1,5 @@
+[![Generic badge](https://img.shields.io/badge/Build-Passing-<Green>.svg)](https://shields.io/) ![Maintainer](https://img.shields.io/badge/maintainer-Dhroov-blue) [![GitHub license](https://badgen.net/github/license/Naereen/Strapdown.js)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) [![forthebadge made-with-go](http://ForTheBadge.com/images/badges/made-with-go.svg)](https://go.dev/)
+
 # IMTV OTT PLATFORM :tv:
 An OTT Platform for on-demand video -  Created using ReactJS, GoLang, MongoDB and AWS.
 This Project has two parts - 
@@ -23,7 +25,7 @@ https://user-images.githubusercontent.com/18377905/185754789-9b0a269b-fd68-4c9a-
 ![image](https://user-images.githubusercontent.com/18377905/185754826-d82bf2ef-2c86-40c5-ae38-1b389393dc1b.png)
 
 ## Some extra screens
-![LOGIN](https://user-images.githubusercontent.com/18377905/185754888-7fa75a2d-3f6b-4936-864f-8e8563c61ce6.png)
+![LOGIN (2)](https://user-images.githubusercontent.com/18377905/185756114-d6702d61-27e8-43a3-85ed-7ed14a9821db.png)
 
 ## Future Scope :mag_right:
 1. Creator side Dashboard for Analytics and Media Upload
