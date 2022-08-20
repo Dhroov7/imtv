@@ -1,0 +1,21 @@
+.content-card {
+    display: inline-block;
+    margin-right: 1em;
+    position: relative;
+}
+
+.content-card-actions {
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(1px);
+    background-color: black;
+}
+
+.content-card-actions p {
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}

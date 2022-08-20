@@ -2,6 +2,7 @@ import React from 'react';
 import { ReactSVG } from 'react-svg';
 import plusSvg from "../../assets/icons/plus.svg";
 import heartSvg from "../../assets/icons/heart.svg";
+import { Link } from "react-router-dom";
 
 import "./Banner.css";
 function Banner({ bannerImage, bannerTitle, bannerDescription,
@@ -21,7 +22,7 @@ function Banner({ bannerImage, bannerTitle, bannerDescription,
                     </p>
                 </div>
                 <div className="banner-actions">
-                    <button className="watch-now">Watch Now</button>
+                <Link to="/watch" className="watch-now">Watch Now</Link>
                     <ReactSVG src={plusSvg} className="banner-action-buttons-svg" />
                     <ReactSVG src={heartSvg} className="banner-action-buttons-svg" />
                 </div>

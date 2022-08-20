@@ -1,16 +1,14 @@
 import React, { useState } from 'react';
-import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Navigation, Core } from "swiper";
+import { Swiper } from "swiper/react";
+import { FreeMode, Navigation } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
 import "./ContentSlider.css";
+import ContentCard from '../ContentCard/ContentCard';
 
 function ContentSlider({contentList, contentTitle}) {
-    const handleHover = (e) => {
-        console.log(e, "------");
-    }
     return (
         <div className="content-slider">
             <div className="content-slider-container">
@@ -38,11 +36,7 @@ function ContentSlider({contentList, contentTitle}) {
                         >
                             {
                                 contentList.map((content, index) => {
-                                    return <SwiperSlide className="content-slider-image-container">
-                                        <div className="slider-image" key={index}>
-                                            <img src={content.image} alt={content.name} />
-                                        </div>
-                                    </SwiperSlide>
+                                    return <ContentCard content={content} index={index}></ContentCard>
                                 })
                             }
                         </Swiper>
